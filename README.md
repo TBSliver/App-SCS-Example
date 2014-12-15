@@ -8,6 +8,7 @@ cd site
 git clone scpubgit@git.shadowcat.co.uk:App-SCS.git
 cd App-SCS
 cpanm --installdeps . # assuming you have a local lib set up
+cd ..
 git clone git@github.com:TBSliver/App-SCS-Example.git
 cd App-SCS-Example
 ./bin/site server
