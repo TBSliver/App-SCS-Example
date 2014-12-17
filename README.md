@@ -5,7 +5,7 @@ This is an example site written using App-SCS. to run, perform the following:
 ```
 mkdir site
 cd site
-git clone scpubgit@git.shadowcat.co.uk:App-SCS.git
+git clone git://git.shadowcat.co.uk/scpubgit/App-SCS.git
 cd App-SCS
 cpanm --installdeps . # assuming you have a local lib set up
 cd ..
