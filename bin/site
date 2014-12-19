@@ -9,6 +9,11 @@ use App::SCS;
 my $scs = App::SCS->new(
   config => {
     plugins => [
+      Feeds => {
+        'blog' => {
+          title => "Tom's Blog",
+        }
+      },
       Server => {},
       Generate => {},
       Actions => {},
