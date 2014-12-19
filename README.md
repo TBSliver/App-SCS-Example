@@ -38,6 +38,8 @@ cpanm --installdeps .
 cpanm Starman # optional dependency
 cd ..
 
+git clone https://github.com/TBSliver/App-SCS-Blog.git
+
 git clone git@github.com:TBSliver/App-SCS-Example.git
 cd App-SCS-Example
 ./bin/site server
